@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@900&family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>MEMORY GAME</h1>
+    <div class="game-info">
+      <h3>Score: <span class="score"></span></h3>
+      <h3>Best Score: <span class="best-score"></span></h3>
+    </div><!--end game-info-->
+    <div id="game">
+    </div><!--end game-->
+    <div class="center">
+      <button class="reset">Reset Game</button>
+    </div><!--end center-->
+    <div id="win" class="hidden">
+      <h4>YOU WIN!</h4>
+      <p>Your score is <span class="final-score"></span></p>
+      <div class="center">
+        <button class="win-reset">Play Again!</button>
+      </div><!--end center-->
+    </div><!-- end win -->
+    <script src="app.js"></script>
+  </body>
+</html>
